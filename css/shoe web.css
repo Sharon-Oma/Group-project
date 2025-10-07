@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellow;
+    color: green;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    background-color: lightpink;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.navbar li{
+    display: block;
+    color: gold;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0ms;    
+}
+.navbar a:hover{
+    color: aqua;
+}
+img{
+    float: right;
+}
+a{
+    text-decoration: none;
+}
+.logo img{
+    float: left;
+}
+.products{
+            background-color: green;
+            border-radius: 50px;
+        }
+.products a{
+            color:lightblue;
+}
+.rate{
+    width: 150
+    x;
+    height: 35px;
+    border-radius: 30px;
+}
