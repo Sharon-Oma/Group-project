@@ -62,3 +62,28 @@ p{
 .navbar a:hover{
     color: aqua;
 }
+@media screen and (min-width: 600px) {
+  body {
+    background-color: lightpink;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: lawngreen;
+  }
+}
+@media screen and (min-width: 600px) and (orientation: landscape) {
+  .header {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 768px) and (orientation: landscape) {
+  .header {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1200px) and (orientation: landscape) {
+  .header {
+    font-size: 2rem;
+  }
+}  

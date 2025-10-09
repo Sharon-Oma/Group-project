@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ope-Oluwa shoe-making website/sign up</title>
+    <link rel="icon" href="images/IMG_20250919_205148-removebg-preview (2).png" type="image/x-icon">
+</head>
+<link rel="stylesheet" href="css/others.css">
+<br><br><br><br><br><br>
+<body>
+    <h1>User name and password</h1>
+    <form>
+        NAME:  <input type="text" placeholder="ENTER USER NAME"><br><br>
+        Password:     <input type="password" id="myPassword" placeholder="Enter your password">
+    <span onclick="togglePasswordVisibility()">👁️</span>
+
+    <script>
+      function togglePasswordVisibility() {
+        const passwordInput = document.getElementById("myPassword");
+        if (passwordInput.type === "password") {
+          passwordInput.type = "text";
+        } else {
+          passwordInput.type = "password";
+        }
+      }
+    </script>
+        <br><button><a href="sign up.html">Go Back</a></button>
+        <button><a href="autentication.html">Next</a></button>
+    </form>
+</body>
+</html>
