@@ -36,3 +36,29 @@ p{
     font-size: 18px;
     margin-top: 20px;
 }
+.navbar{
+    background-color: lightpink;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.navbar li{
+    display: block;
+    color: gold;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0ms;    
+}
+.navbar a:hover{
+    color: aqua;
+}
