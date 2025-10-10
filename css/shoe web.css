@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: hotpink;
+    background-color: white;
     color: darkred;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,15 +18,20 @@ body{
     z-index: 1000;
     justify-content: space-between;
     display: flex;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .gh{
  border-radius: 50px;
- font-size: 1.3rem;
+ font-size: 1rem;
+ padding: 0.8rem;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .purchaser{
-  float: left;
+  border-radius: 0.5rem;
+  z-index: 1;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 
 }
 
@@ -35,8 +40,8 @@ body{
             border-radius: 50px;
 }
 
-.purchaser a{
-            color:lightblue;
+.gh a{
+            color:#a47148;
 }
 
 .logo{
@@ -155,7 +160,7 @@ a{
         padding: 1rem;
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         text-align: center;
-    }
+    }       .purchaser
     .box:nth-child(6){
         grid-area: box5;
         background-color:rgb(209, 209, 209);
@@ -208,65 +213,216 @@ a{
   padding: 1rem;
 }
 
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 10px 20px;
+}
+
+.name{
+  margin-left: 20px;
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
+
 .strike-through{
   text-decoration: line-through;
 }
 
+.Johnny-Drille-Believe-Me-Video-{
+  justify-content: center;
+}
+
 .wrap1{
   justify-content: center;
-  background-color: aqua;
+  background-color: white;
   display: flex;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .wrap2{
   justify-content: center;
-  background-color: aqua;
+  background-color: white;
   display: flex;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .wrap3{
   justify-content: center;
-  background-color: aqua;
+  background-color: white;
   display: flex;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .wrap4{
   justify-content: center;
-  background-color: aqua;
+  background-color: white;
   display: flex;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .wrap5{
   justify-content: center;
-  background-color: aqua;
+  background-color: white;
   display: flex;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .wrap6{
   justify-content: center;
-  background-color: aqua;
+  background-color: white;
   display: flex;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .wrap7{
   justify-content: center;
-  background-color: blue;
+  background-color: white;
   display: flex;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .wrap8{
   justify-content: center;
-  background-color: aqua;
+  background-color: white;
   display: flex;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.wrap9{
+ justify-content: center;
+  background-color: white;
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+.catch-phrase{
+  color: darkorange;
 }
 .price{
   font-size: x-large;
 }
+figure {
+  box-sizing: border-box;
+  padding: 1rem;
+  background-color: #F4E1D2;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+#our-products{}
 @media screen and (min-width: 600px) {
   
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 400px) {
   body {
-    background-color: lawngreen;
+    background-color: white;
   }
-}
-@media screen and (min-width: 600px) and (orientation: landscape) {
   .header {
     font-size: 2rem;
   }
+  .box-list {
+  grid-template-areas:
+  "box1"
+  "box2"
+  "box3"
+  "box4"z
+  "box5"
+  "box6"
+  "box7"
+  "box8";
+ }
+ .wrap1{
+  flex-direction: column;
+ }
+ .wrap2{
+  flex-direction: column;
+ }
+ .wrap3{
+  flex-direction: column;
+ }
+ .wrap4{
+  flex-direction: column;
+ }
+ .wrap5{
+  flex-direction: column;
+ }
+ .wrap6{
+  flex-direction: column;
+ }
+ .wrap7{
+  flex-direction: column;
+ }
+ .wrap8{
+  flex-direction: column;
+ }
+ 
+ header{
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+ }
+ nav{
+  margin-top: 10px ;
+  z-index: 1000;
+ }
+ .name{
+  display: inline-block;
+  margin: 10px 10px;
+ }
+}
+
+@media screen and (max-width: 900px){
+  .header {
+    font-size: 2rem;
+  }
+  .box-list {
+  grid-template-areas:
+  "box1"
+  "box2"
+  "box3"
+  "box4"z
+  "box5"
+  "box6"
+  "box7"
+  "box8";
+ }
+ .wrap1{
+  flex-direction: column;
+ }
+ .wrap2{
+  flex-direction: column;
+ }
+ .wrap3{
+  flex-direction: column;
+ }
+ .wrap4{
+  flex-direction: column;
+ }
+ .wrap5{
+  flex-direction: column;
+ }
+ .wrap6{
+  flex-direction: column;
+ }
+ .wrap7{
+  flex-direction: column;
+ }
+ .wrap8{
+  flex-direction: column;
+ }
+ .wrap9{
+  flex-direction: column;
+ }
+ header{
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+ }
+ nav{
+  margin-top: 10px ;
+  z-index: 1000;
+ }
+ .name{
+  display: inline-block;
+  margin: 10px 10px;
+ }
 }
 @media screen and (max-width: 768px) {
   .header {
@@ -306,6 +462,22 @@ a{
  }
  .wrap8{
   flex-direction: column;
+ }
+ .wrap9{
+  flex-direction: column;
+ }
+ header{
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+ }
+ nav{
+  margin-top: 10px ;
+  z-index: 1000;
+ }
+ .name{
+  display: inline-block;
+  margin: 10px 10px;
  }
 }
 @media screen and (max-width: 300px) {
@@ -347,6 +519,10 @@ a{
  .wrap8{
   flex-direction: column;
  }
+ .wrap9{
+  flex-direction: column;
+ }
+ 
 }
 @media screen and (min-width: 1200px) and (orientation: landscape) {
   .header {
