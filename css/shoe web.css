@@ -22,10 +22,12 @@ body{
 
 .gh{
  border-radius: 50px;
+ font-size: 1.3rem;
 }
 
 .purchaser{
   float: left;
+
 }
 
 .purchaser button{
@@ -210,10 +212,51 @@ a{
   text-decoration: line-through;
 }
 
+.wrap1{
+  justify-content: center;
+  background-color: aqua;
+  display: flex;
+}
+.wrap2{
+  justify-content: center;
+  background-color: aqua;
+  display: flex;
+}
+.wrap3{
+  justify-content: center;
+  background-color: aqua;
+  display: flex;
+}
+.wrap4{
+  justify-content: center;
+  background-color: aqua;
+  display: flex;
+}
+.wrap5{
+  justify-content: center;
+  background-color: aqua;
+  display: flex;
+}
+.wrap6{
+  justify-content: center;
+  background-color: aqua;
+  display: flex;
+}
+.wrap7{
+  justify-content: center;
+  background-color: blue;
+  display: flex;
+}
+.wrap8{
+  justify-content: center;
+  background-color: aqua;
+  display: flex;
+}
+.price{
+  font-size: x-large;
+}
 @media screen and (min-width: 600px) {
-  body {
-    background-color: lightpink;
-  }
+  
 }
 @media screen and (min-width: 768px) {
   body {
@@ -225,10 +268,85 @@ a{
     font-size: 2rem;
   }
 }
-@media screen and (min-width: 768px) and (orientation: landscape) {
+@media screen and (max-width: 768px) {
   .header {
     font-size: 2rem;
   }
+ .box-list {
+  grid-template-areas:
+  "box1"
+  "box2"
+  "box3"
+  "box4"z
+  "box5"
+  "box6"
+  "box7"
+  "box8";
+ }
+ .wrap1{
+  flex-direction: column;
+ }
+ .wrap2{
+  flex-direction: column;
+ }
+ .wrap3{
+  flex-direction: column;
+ }
+ .wrap4{
+  flex-direction: column;
+ }
+ .wrap5{
+  flex-direction: column;
+ }
+ .wrap6{
+  flex-direction: column;
+ }
+ .wrap7{
+  flex-direction: column;
+ }
+ .wrap8{
+  flex-direction: column;
+ }
+}
+@media screen and (max-width: 300px) {
+  .header {
+    font-size: 2rem;
+  }
+ .box-list {
+  grid-template-areas:
+  "box1"
+  "box2"
+  "box3"
+  "box4"
+  "box5"
+  "box6"
+  "box7"
+  "box8";
+ }
+ .wrap1{
+  flex-direction: column;
+ }
+ .wrap2{
+  flex-direction: column;
+ }
+ .wrap3{
+  flex-direction: column;
+ }
+ .wrap4{
+  flex-direction: column;
+ }
+ .wrap5{
+  flex-direction: column;
+ }
+ .wrap6{
+  flex-direction: column;
+ }
+ .wrap7{
+  flex-direction: column;
+ }
+ .wrap8{
+  flex-direction: column;
+ }
 }
 @media screen and (min-width: 1200px) and (orientation: landscape) {
   .header {
