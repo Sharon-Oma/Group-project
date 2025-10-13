@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ope-Oluwa shoemaker</title>
-        <link rel="icon" href="images/IMG_20250919_205148-removebg-preview (2).png" type="image/x-icon">
-    <link rel="stylesheet" href="css/others.css">
-</head>
-<body>
+    <link
+      rel="icon"
+      href="images/IMG_20250919_205148-removebg-preview (2).png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/others.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <form>
-        <h1>Please enter the required info.</h1>
-        EMAIL: <input type="email" placeholder="ENTER YOUR EMAIL"><br><br>
-        PASSWORD:     <input type="password" id="myPassword" placeholder="Enter your password">
-    <span onclick="togglePasswordVisibility()">👁️</span><br>
+      <h1>Please enter the required info.</h1>
+      EMAIL: <input type="email" placeholder="ENTER YOUR EMAIL" /><br /><br />
+      PASSWORD:
+      <input
+        type="password"
+        id="myPassword"
+        placeholder="Enter your password"
+      />
+      <span onclick="togglePasswordVisibility()">👁️</span><br />
 
-    <script>
-      function togglePasswordVisibility() {
-        const passwordInput = document.getElementById("myPassword");
-        if (passwordInput.type === "password") {
-          passwordInput.type = "text";
-        } else {
-          passwordInput.type = "password";
+      <script>
+        function togglePasswordVisibility() {
+          const passwordInput = document.getElementById("myPassword");
+          if (passwordInput.type === "password") {
+            passwordInput.type = "text";
+          } else {
+            passwordInput.type = "password";
+          }
         }
-      }
-    </script>
-    
-        <button><a href="home copy.html">Go Back</a></button>
-        <a href="create account.html">Create account</a>
-        <button><a href="next1.html">Next</a></button>
+      </script>
+
+      <button><a href="/home.html">Go Back</a></button>
+      <a href="create account.html">Create account</a>
+      <button><a href="next1.html">Next</a></button>
     </form>
-</body>
+  </body>
 </html>

@@ -1,13 +1,14 @@
-*{
-    text-align: center;
-    box-sizing: border-box;
+* {
+  text-align: center;
+  box-sizing: border-box;
+  font-family: Alan Sans;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 @media screen and (min-width: 600px) {
   body {
-    background-color: lightpink;
+    background-color: lightgray;
   }
 }
 @media screen and (min-width: 768px) {
@@ -29,4 +30,4 @@ a{
   .header {
     font-size: 2rem;
   }
-}  
+}
