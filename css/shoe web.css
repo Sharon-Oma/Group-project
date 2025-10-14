@@ -9,6 +9,22 @@ body {
 .sign-up {
   border-radius: 50px;
 }
+.product a{
+  color: darkred;
+  font-family: Alan Sans;
+  padding: 1rem;
+}
+.product button{
+  border-radius: 50px;
+}
+.product{
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  display: flexbox;
+  justify-content: center;
+   border-radius: 50px;
+}
 .navbar {
   background-color: #a47148;
   overflow: hidden;
@@ -26,7 +42,7 @@ body {
   font-size: 1rem;
   padding: 0.8rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-style: Alan Sans;
+  font-family:Alan Sans;
 }
 
 .purchaser {
@@ -78,7 +94,7 @@ a {
 }
 .products {
   border-radius: 50px;
-  font-style: Alan Sans;
+  font-family:  Alan Sans;
   padding: 0.8rem;
 }
 .products a {
@@ -310,11 +326,10 @@ figure {
   align-items: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-#our-products {
-}
+#our-products {}
 @media screen and (min-width: 600px) {
 }
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 400px) {
   body {
     background-color: white;
   }
@@ -326,7 +341,65 @@ figure {
       "box1"
       "box2"
       "box3"
-      "box4" z
+      "box4"
+      "box5"
+      "box6"
+      "box7"
+      "box8";
+  }
+  .wrap1 {
+    flex-direction: column;
+  }
+  .wrap2 {
+    flex-direction: column;
+  }
+  .wrap3 {
+    flex-direction: column;
+  }
+  .wrap4 {
+    flex-direction: column;
+  }
+  .wrap5 {
+    flex-direction: column;
+  }
+  .wrap6 {
+    flex-direction: column;
+  }
+  .wrap7 {
+    flex-direction: column;
+  }
+  .wrap8 {
+    flex-direction: column;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  nav {
+    margin-top: 10px;
+    z-index: 1000;
+  }
+  .name {
+    display: inline-block;
+    margin: 10px 10px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    background-color: white;
+  }
+  .header {
+    font-size: 2rem;
+  }
+  .box-list {
+    grid-template-areas:
+      "box1"
+      "box2"
+      "box3"
+      "box4"
       "box5"
       "box6"
       "box7"
@@ -527,7 +600,7 @@ figure {
     flex-direction: column;
   }
 }
-@media screen and (min-width: 1200px) and (orientation: landscape) {
+@media screen and (min-width: 1200px){
   .header {
     font-size: 2rem;
   }
