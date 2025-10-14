@@ -9,21 +9,21 @@ body {
 .sign-up {
   border-radius: 50px;
 }
-.product a{
+.product a {
   color: darkred;
   font-family: Alan Sans;
   padding: 1rem;
 }
-.product button{
+.product button {
   border-radius: 50px;
 }
-.product{
+.product {
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   align-items: center;
   display: flexbox;
   justify-content: center;
-   border-radius: 50px;
+  border-radius: 50px;
 }
 .navbar {
   background-color: #a47148;
@@ -42,7 +42,7 @@ body {
   font-size: 1rem;
   padding: 0.8rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-family:Alan Sans;
+  font-family: Alan Sans;
 }
 
 .purchaser {
@@ -92,12 +92,24 @@ a {
 .logo img {
   float: left;
 }
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .products {
   border-radius: 50px;
-  font-family:  Alan Sans;
+  font-family: Alan Sans;
   padding: 0.8rem;
 }
-.products a {
+.top{
+  border-radius: 1rem;
+  font-family: Alan Sans;
+  padding: 0 1rem;
+  margin-top: 2rem;
+}
+.products a, .top a {
   color: darkred;
 }
 .rate {
@@ -218,6 +230,9 @@ a {
 
 .back-to-top {
   border-radius: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ---- BASE STYLES FOR MOBILE (up to 599px) ---- */
@@ -311,7 +326,7 @@ header {
 }
 .catch-phrase {
   font-size: 30px;
-  color: rgb(34, 25, 14);
+  color: rgb(88, 88, 88);
 }
 .price {
   font-size: x-large;
@@ -326,7 +341,8 @@ figure {
   align-items: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-#our-products {}
+#our-products {
+}
 @media screen and (min-width: 600px) {
 }
 @media screen and (max-width: 400px) {
@@ -600,7 +616,7 @@ figure {
     flex-direction: column;
   }
 }
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
   .header {
     font-size: 2rem;
   }
